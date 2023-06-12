@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #f7e7e7;
+}
+
+.page{
+    display: flex;
+    margin: auto;
+    margin-left: 10rem;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.box{
+    padding: 10px;
+    font-size: 27px;
+    margin-bottom: 7rem;
+}
+
+.box h1{
+    color: rgb(34, 30, 255);
+}
+
+.container{
+    margin-left: 9rem;
+    margin-bottom: 3rem;
+}
+
+form{
+    margin: 10px;
+    padding: 10px;
+    height: 60vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border: none;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+
+input{
+    padding:  15px 40px;
+    border: 2px solid #b1acac;
+    border-radius: 5px;
+    font-size:20px;
+    align-items: start;
+    width:  25vw ;
+    outline: dodgerblue;
+}
+
+input:hover{
+    border-color:dodgerblue;
+}
+
+.butn{
+    width: 25vw ;
+    background-color:  rgb(52, 49, 233);
+    color:white;
+    font-size: 20px ;
+    font-weight: bold;
+    outline: none;
+    border:none ;
+}
+
+.butn:hover{
+    background-color:   rgb(99, 97, 223);
+}
+
+
+p a{
+    color: rgb(24, 67, 184);
+    text-decoration: none;
+}
+
+.lastSentence{
+    margin-left: 2rem;
+}
+
+button{
+    padding: 10px;
+    width: 15vw;
+    background-color: limegreen;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
